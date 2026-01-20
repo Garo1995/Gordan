@@ -1,0 +1,847 @@
+h1{
+    font-family: 'Roboto Slab';
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 62px;
+    color: #FFFFFF;
+}
+h2{
+    font-family: 'Roboto Slab';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    color: #000000;
+}
+.fire-ready{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 126px;
+    z-index: 99;
+}
+.fire-ready:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background: #000000;
+    z-index: 99;
+}
+.video-gordan{
+    width: 100%;
+    display: flex;
+}
+.video-gordan video, .gordan-video__mob video{
+    width: 100%;
+}
+
+video::-webkit-media-controls {
+    display: none !important;
+}
+
+.fire-ready__qr{
+    display: flex;
+    justify-content: flex-end;
+}
+.fire-ready__tit{
+    margin-top: 334px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+.scroller{
+    position: absolute;
+}
+
+.scroller{
+    position: absolute;
+    top: 85px;
+    -webkit-animation-name: example;
+    animation-name: example;
+    -webkit-animation-duration: 2.5s;
+    animation-duration: 2.5s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    z-index: 999999;
+}
+.scroller img{
+    -webkit-animation: sdb07 2.5s infinite;
+    animation: sdb07 2.5s infinite;
+    opacity: 0;
+}
+
+@-webkit-keyframes example {
+    0% {
+        -webkit-transform: translateY(-20%);
+        transform: translateY(-20%)
+    }
+    50% {
+        -webkit-transform: translateY(20%);
+        transform: translateY(20%)
+    }
+    100% {
+        -webkit-transform: translateY(-20%);
+        transform: translateY(-20%)
+    }
+}
+@-webkit-keyframes sdb07 {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+#products{
+    position: relative;
+}
+#products:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 678px;
+    background: #000000;
+}
+
+.products__main{
+    position: relative;
+    z-index: 9;
+}
+.honest-taste{
+    padding: 120px 0 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.honest-taste__tit{
+    max-width: 630px;
+    width: 100%;
+}
+.honest-taste__tit h1{
+    margin-bottom: 30px;
+}
+.honest-taste__tit p{
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    max-width: 460px;
+    width: 100%;
+}
+.honest-taste__icon{
+    max-width: 556px;
+    width: 100%;
+    display: flex;
+}
+.honest__cnt{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 43px rgba(0, 0, 0, 0.1);
+    border-radius: 30px 0 0 30px;
+    margin-top: -120px;
+    z-index: 9;
+    position: relative;
+    max-width: 80%;
+    width: 100%;
+    margin-left: auto;
+    padding: 10px 2px 10px 60px;
+}
+.swiper-button-next:after, .swiper-button-prev:after{
+    display: none;
+}
+.swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled {
+    opacity: 1;
+}
+.swiper-button-prev{
+    left: 0;
+}
+.swiper-button-next{
+    right: auto;
+    left: 100px;
+}
+.swiper-button-next, .swiper-button-prev{
+    position: absolute;
+    width: 62px;
+    height: 62px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 43px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    z-index: 99;
+    top: auto;
+    transition: 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: -80px;
+}
+.honest__cnt .swiper-horizontal>.swiper-scrollbar {
+    bottom: 0px;
+}
+.swiper-scrollbar-drag {
+    background: rgba(106, 106, 106, 1);
+}
+
+.honest-Swiper{
+    cursor: pointer;
+}
+.full-application{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.btn{
+    padding: 10px 20px;
+    max-width: 210px;
+    width: 100%;
+    height: 52px;
+    background: #FF7F00;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.btn i{
+    margin-right: 12px;
+
+}
+.btn .icon{
+    background-color: #FFFFFF;
+    font-size: 22px;
+    transition: 0.3s;
+}
+.btn:hover{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 43px rgba(0, 0, 0, 0.1);
+    color: #FF7F00;
+}
+.btn:hover .icon{
+    background-color: #FF7F00;
+}
+.full-app__href a + a{
+    margin-top: 24px;
+}
+.full-app__fl{
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+}
+.full-app__href{
+    max-width: 221px;
+    width: 100%;
+    margin-right: 30px;
+}
+.full-app__fl>img{
+    margin-left: 30px;
+}
+.full-app__info{
+    max-width: 600px;
+    width: 100%;
+}
+.full-app__photo{
+    max-width: 565px;
+    width: 100%;
+    display: flex;
+}
+.app-mobile-info{
+    display: flex;
+    align-items: flex-start;
+    padding-bottom: 40px;
+}
+.app-mobile__box{
+    max-width: 368px;
+    width: 100%;
+    margin-right: 15px;
+    position: relative;
+}
+.app-mobile__box:after{
+    content: "";
+    position: absolute;
+    top: 29px;
+    right: 0;
+    max-width: 303px;
+    width: 100%;
+    height: 3px;
+    background: #FF7F00;
+    border-radius: 28px;
+}
+.app-mobile__box:last-child:after{
+    display: none;
+}
+.app-mobile__tit{
+    margin-top: 17px;
+}
+.app-mobile__tit strong, .app-mobile__tit p{
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+}
+.app-mobile__tit strong{
+    font-weight: 700;
+}
+.app-mobile__tit p{
+    font-weight: 400;
+    margin-top: 14px;
+}
+.app-mobile__circ{
+    width: 58px;
+    height: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    position: relative;
+}
+.app-mobile__icon{
+    width: 48px;
+    height: 48px;
+    background: linear-gradient(180deg, #8EBF26 0%, #87A621 100%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+.app-mobile__circ:after{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.circle-thirty:after{
+    background-image: url("../img/cirkle.png");
+}
+.circle-half:after{
+    background-image: url("../img/cirkle-tow.png");
+}
+.app-mobile__box:last-child .app-mobile__circ{
+    border: 3px solid #8DBB26;
+}
+
+#barbecue{
+    margin: 140px auto -60px;
+}
+.barbecue__wid{
+    position: relative;
+    max-width: 80%;
+    width: 100%;
+    margin-left: auto;
+}
+.barbecue__wid:after{
+    content: "";
+    position: absolute;
+    top: -182px;
+    right: 151px;
+    background-image: url("../icons/fail-b.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 313px;
+    width: 100%;
+    height: 446px;
+}
+.barbecue-address{
+    margin-top: 65px;
+    overflow: hidden;
+}
+.barbecue-swiper{
+    margin-right: -130px;
+}
+@media (max-width: 1699px){
+     .barbecue-swiper{
+        margin-right: -200px;
+    } 
+}
+.barbecue-address__box{
+    max-width: 360px;
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 43px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding-bottom: 25px;
+}
+.barbecue-address__box img{
+    width: 100%;
+    border-radius: 8px;
+}
+.barbecue-address__box strong{
+    display: block;
+    text-align: center;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+    padding: 0 5px;
+}
+.barbecue-address__box span{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+    margin-top: 40px;
+    display: block;
+}
+.barbecue-add__tit{
+    padding-top: 30px;
+    min-height: 152px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.error-pages{
+    background-image: url("../img/mountain-fire11.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 50px 20px 130px;
+}
+.error-pages span{
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 60px;
+}
+.button{
+    padding: 20px 60px;
+    background: #FFFFFF;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    color: #FF7F00;
+    transition: 0.3s;
+}
+.button:hover{
+    background: #FF7F00;
+    color: #FFFFFF;
+}
+.gordan-video__mob{
+    display: none;
+}
+
+
+.open-graph__cnt{
+    background-image: url("../img/mountain-fire11.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 70px;
+}
+.open-grap img{
+    max-width: 370px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.open-grap span{
+    font-family: 'Roboto Slab';
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 62px;
+    color: #FFFFFF;
+    display: block;
+
+}
+.open-graph__cnt>img{
+    margin-left: -75px;
+}
+
+.barbecue-button-prev, .barbecue-button-next{
+    display: none;
+}
+
+@media (max-width: 1799px){
+    .honest__cnt {
+        max-width: 84%;
+    }
+    .barbecue__wid{
+        max-width: 84%;
+    }
+}
+@media (max-width: 1699px){
+    .honest__cnt {
+        max-width: 86%;
+    }
+    .barbecue__wid{
+        max-width: 86%;
+    }
+  
+}
+@media (max-width: 1599px){
+    .barbecue__wid {
+        max-width: 88%;
+    }
+}
+
+@media (max-width: 1450px){
+    .honest__cnt {
+        max-width: 90%;
+    }
+    .barbecue__wid{
+        max-width: 1300px;
+    }
+    .products__main{
+        max-width: 1440px;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 1420px){
+    .barbecue__wid {
+        max-width: 92%;
+    }
+}
+@media (max-width: 1399px){
+    .honest__cnt {
+        max-width: 1220px;
+        padding: 10px 2px 10px 40px;
+    }
+   
+}
+@media (max-width: 1369px){
+    .barbecue__wid {
+        max-width: 94%;
+    }
+}
+@media (max-width: 1299px){
+
+    .fire-ready__tit {
+        margin-top: 234px;
+    }
+
+    .products__main {
+        padding: 0 0 0 15px;
+    }
+    .products__main .container{
+        padding-left: 0;
+    }
+    .barbecue__wid {
+        padding: 0 15px;
+        margin: 0 auto;
+        max-width: 1190px;
+        width: 100%;
+    }
+    .barbecue-address{
+        overflow: unset;
+    }
+    .barbecue-swiper{
+        margin-right: 0;
+    }
+
+    .open-graph__cnt {
+        padding-left: 30px;
+    }
+    .open-grap img {
+        max-width: 300px;
+    }
+    .open-grap span {
+        font-size: 34px;
+        line-height: 42px;
+    }
+}
+@media (max-width: 1199px){
+    h1 {
+        font-size: 48px;
+        line-height: 60px;
+    }
+    .fire-ready__tit {
+        margin-top: 164px;
+    }
+
+    .app-mobile-scr{
+        overflow-x: scroll;
+    }
+    .app-mobile-info {
+        padding-bottom: 20px;
+        width: max-content;
+    }
+    .barbecue__wid:after {
+        top: -110px;
+        right: 15px;
+        max-width: 211px;
+        height: 292px;
+    }
+    #barbecue {
+        margin: 80px auto -60px;
+    }
+    .open-graph__cnt {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 30px 20px;
+    }
+    .open-grap span {
+        font-size: 26px;
+        line-height: 34px;
+    }
+
+}
+@media (max-width: 990px){
+    .fire-ready__qr {
+        width: 60px;
+        margin-left: auto;
+    }
+    .fire-ready {
+        padding-top: 110px;
+    }
+    .scroller{
+        display: none;
+    }
+    .fire-ready__tit {
+        margin-top: 95px;
+    }
+   .honest-taste__tit h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .honest-taste__icon {
+        max-width: 326px;
+        margin-left: -69px;
+    }
+    #products:before {
+        height: 516px;
+    }
+    .honest__cnt {
+        padding: 5px 2px 5px 40px;
+        margin-top: -40px;
+    }
+    .honest__widt{
+        overflow: hidden;
+    }
+    .full-application {
+        position: relative;
+        flex-direction: column-reverse;
+        padding-top: 150px;
+    }
+    .full-app__info h2{
+        position: absolute;
+        top: 0;
+        left: 0;
+        max-width: 600px;
+        width: 100%;
+    }
+    .full-app__fl {
+        justify-content: center;
+    }
+    .barbecue__wid:after {
+        top: -85px;
+    }
+    .honest-Swiper{
+        margin-right: -80px;
+    }
+
+    .barbecue-button-prev, .barbecue-button-next{
+        display: flex;
+    }
+    .barbecue-button-next{
+        right: 0;
+        left: auto;
+    }
+    .barbecue-address{
+        position: relative;
+        padding: 0;
+    }
+
+    .swiper-button-prev{
+        left: 0;
+    }
+    .swiper-button-next {
+        right: 15px;
+        left: auto;
+    }
+
+    .barbecue-button-prev{
+        left: 0;
+    }
+    .barbecue-button-next{
+        right: 0;
+    }
+}
+@media (max-width: 760px){
+    h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .fire-ready__qr {
+        display: none;
+    }
+    .fire-ready__tit {
+        margin-top: 0;
+    }
+
+    .honest-taste__icon{
+        display: none;
+    }
+    .honest-taste__tit h1 {
+        font-size: 25px;
+        line-height: 31px;
+        text-align: center;
+    }
+    .honest-taste__tit p {
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .honest__cnt {
+        padding: 0;
+        margin-top: 30px;
+        background: unset;
+        box-shadow: unset;
+    }
+    #products:before {
+        height: 424px;
+    }
+    .full-app__info h2 {
+        max-width: 100%;
+        text-align: center;
+    }
+    h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .video-gordan{
+        display: none;
+    }
+    .gordan-video__mob{
+        display: flex;
+        width: 100%;
+    }
+    .fire-ready {
+        height: 100%;
+        padding-top: 0;
+        display: flex;
+        align-items: center;
+    }
+    .honest-Swiper{
+        margin-right: 0;
+    }
+}
+@media (max-width: 570px){
+    #products:before {
+        height: 444px;
+    }
+    h2 {
+        font-size: 25px;
+        line-height: 37px;
+    }
+    .full-application {
+        padding-top: 110px;
+    }
+    .full-app__fl>img {
+        display: none;
+    }
+    .full-app__href {
+        margin-right: 0;
+    }
+    .app-mobile__box {
+        max-width: 285px;
+    }
+    .app-mobile__tit strong {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .app-mobile__tit p{
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .app-mobile__tit{
+        max-width: 250px;
+        width: 100%;
+    }
+    .app-mobile__box:after {
+        max-width: 181px;
+    }
+    .barbecue__wid h2{
+        position: relative;
+        z-index: 9;
+    }
+    .barbecue__wid:after {
+        max-width: 168px;
+        height: 234px;
+    }
+    .barbecue-address__box strong {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .barbecue-address__box span {
+        font-size: 14px;
+        line-height: 20px;
+        margin-top: 20px;
+    }
+    .barbecue-add__tit {
+        padding-top: 20px;
+        min-height: 100px;
+    }
+    .fire-ready:after {
+        height: 40px;
+    }
+    .error-pages span {
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 50px;
+    }
+    .button {
+        padding: 20px 30px;
+        font-size: 22px;
+    }
+    .error-pages {
+        padding: 20px 20px 20px;
+    }
+    .honest-taste {
+        padding: 80px 0 0;
+    }
+    .swiper-button-next, .swiper-button-prev {
+        width: 32px;
+        padding: 4px;
+        height: 32px;
+        bottom: -60px;
+    }
+    .swiper-button-prev{
+        left: 30%;
+    }
+    .swiper-button-next {
+        right: 30%;
+    }
+}
+@media (max-width: 480px){
+    #products:before {
+        height: 414px;
+    }
+}

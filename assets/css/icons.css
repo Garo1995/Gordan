@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+.icon {
+    display               : inline-block;
+    height                : 1em;
+    width                 : 1em;
+    mask-size             : contain;
+    -webkit-mask-size     : contain;
+    mask-repeat           : no-repeat;
+    -webkit-mask-repeat   : no-repeat;
+    mask-position         : center;
+    -webkit-mask-position : center;
+    font-size             : 16px;
+    background-color      : #000;
+    transition: 0.3s;
+
+}
+
+.icon.logo {
+    mask-image         : url(../icons/icon-logo.svg);
+    -webkit-mask-image : url(../icons/icon-logo.svg);
+}
+.icon.apple {
+    mask-image         : url(../icons/icon-apple.svg);
+    -webkit-mask-image : url(../icons/icon-apple.svg);
+}
+.icon.google {
+    mask-image         : url(../icons/icon-google.svg);
+    -webkit-mask-image : url(../icons/icon-google.svg);
+}
+.icon.wk {
+    mask-image         : url(../icons/icon-wk.svg);
+    -webkit-mask-image : url(../icons/icon-wk.svg);
+}
+.icon.arrow {
+    mask-image         : url(../icons/icon-arrow-right.svg);
+    -webkit-mask-image : url(../icons/icon-arrow-right.svg);
+}
+

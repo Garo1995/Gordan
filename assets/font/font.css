@@ -1,0 +1,142 @@
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Bold.eot');
+    src: local('Roboto Bold'), local('Roboto-Bold'),
+    url('Roboto-Bold.eot?#iefix') format('embedded-opentype'),
+    url('Roboto-Bold.woff2') format('woff2'),
+    url('Roboto-Bold.woff') format('woff'),
+    url('Roboto-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Regular.eot');
+    src: local('Roboto'), local('Roboto-Regular'),
+    url('Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+    url('Roboto-Regular.woff2') format('woff2'),
+    url('Roboto-Regular.woff') format('woff'),
+    url('Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Light.eot');
+    src: local('Roboto Light'), local('Roboto-Light'),
+    url('Roboto-Light.eot?#iefix') format('embedded-opentype'),
+    url('Roboto-Light.woff2') format('woff2'),
+    url('Roboto-Light.woff') format('woff'),
+    url('Roboto-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Medium.eot');
+    src: local('Roboto Medium'), local('Roboto-Medium'),
+    url('Roboto-Medium.eot?#iefix') format('embedded-opentype'),
+    url('Roboto-Medium.woff2') format('woff2'),
+    url('Roboto-Medium.woff') format('woff'),
+    url('Roboto-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'Inter';
+    src: url('Inter-Regular.eot');
+    src: local('Inter Regular'), local('Inter-Regular'),
+    url('Inter-Regular.eot?#iefix') format('embedded-opentype'),
+    url('Inter-Regular.woff2') format('woff2'),
+    url('Inter-Regular.woff') format('woff'),
+    url('Inter-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto Slab';
+    src: url('RobotoSlab-Regular.eot');
+    src: local('Roboto Slab Regular'), local('RobotoSlab-Regular'),
+    url('RobotoSlab-Regular.eot?#iefix') format('embedded-opentype'),
+    url('RobotoSlab-Regular.woff2') format('woff2'),
+    url('RobotoSlab-Regular.woff') format('woff'),
+    url('RobotoSlab-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto Slab';
+    src: url('RobotoSlab-Bold.eot');
+    src: local('Roboto Slab Bold'), local('RobotoSlab-Bold'),
+    url('RobotoSlab-Bold.eot?#iefix') format('embedded-opentype'),
+    url('RobotoSlab-Bold.woff2') format('woff2'),
+    url('RobotoSlab-Bold.woff') format('woff'),
+    url('RobotoSlab-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Inter';
+    src: url('Inter-Bold.eot');
+    src: local('Inter Bold'), local('Inter-Bold'),
+    url('Inter-Bold.eot?#iefix') format('embedded-opentype'),
+    url('Inter-Bold.woff2') format('woff2'),
+    url('Inter-Bold.woff') format('woff'),
+    url('Inter-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+
+
+@font-face {
+    font-family: 'Inter';
+    src: url('Inter-Medium.eot');
+    src: local('Inter Medium'), local('Inter-Medium'),
+    url('Inter-Medium.eot?#iefix') format('embedded-opentype'),
+    url('Inter-Medium.woff2') format('woff2'),
+    url('Inter-Medium.woff') format('woff'),
+    url('Inter-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('GothamPro-Medium.eot');
+    src: local('Gotham Pro Medium'), local('GothamPro-Medium'),
+    url('GothamPro-Medium.eot?#iefix') format('embedded-opentype'),
+    url('GothamPro-Medium.woff2') format('woff2'),
+    url('GothamPro-Medium.woff') format('woff'),
+    url('GothamPro-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('GothamPro.eot');
+    src: local('Gotham Pro'), local('GothamPro'),
+    url('GothamPro.eot?#iefix') format('embedded-opentype'),
+    url('GothamPro.woff2') format('woff2'),
+    url('GothamPro.woff') format('woff'),
+    url('GothamPro.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
